@@ -164,7 +164,7 @@
         }
     
         //moce and loop the clouds
-        for (CCNode *cloud in _clouds){
+        for (CCNode *cloud in _clouds) {
             //move the cloud
             cloud.position = ccp(cloud.position.x - (character.physicsBody.velocity.x * delta), cloud.position.y);
             
